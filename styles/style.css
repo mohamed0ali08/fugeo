@@ -1,0 +1,274 @@
+body, html{
+  margin: 0;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.box{
+  box-sizing: border-box;
+}
+
+
+
+.box1{
+  width: 100%;
+  height: auto;
+  /* border: 2px solid black; */
+  border: 2px solid transparent;
+  background-image: url("../image/img1.jpg");
+  height: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.8;  
+}
+
+.box1-1 {
+  box-sizing: border-box;
+  width:100%;
+  /* min-width: 400px; */
+  /* border: 1px solid red; */
+  border: 1px solid transparent;
+  float: right;
+  /* margin-top: 20%; */
+  top: 30%;
+  height: auto;
+  text-align: right;
+  position:absolute;
+}
+
+.text1-1{
+  font-size: 50px;
+  margin-right: 10%;
+}
+
+.text2-1{
+  font-size: 20px;
+  margin-right: 10%;
+  padding-bottom: 20px;
+}
+
+.button1-1{
+  background-color: #ffffff;
+  border: 3px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 6px 0px;
+  cursor: pointer;
+  margin-right: 10%;
+}
+
+.button1-1 {
+  transition-duration: 0.4s;
+}
+
+.button1-1:hover {
+  background-color: #000000; /* Green */
+  color: rgb(255, 255, 255);
+}
+
+
+.box2{
+  width: 100%;
+  height: auto;
+  /* border: 2px solid rgb(255, 255, 255); */
+  border: 0px solid transparent;
+  background-image: url("../image/img2.jpg");
+  height: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.8;  
+}
+
+.box2-2 {
+  box-sizing: border-box;
+  width:100%;
+  /* min-width: 400px; */
+  /* border: 1px solid red; */
+  border: 1px solid transparent;
+  float: right;
+  /* margin-top: 20%; */
+  top: 30%;
+  height: auto;
+  text-align: left;
+  position:absolute;
+}
+
+.text2-2{
+  font-size: 50px;
+  margin-left: 10%;
+  color: white;
+}
+
+.text3-2{
+  font-size: 20px;
+  margin-left: 10%;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.button2-2{
+  background-color: #000000;
+  border: 3px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 6px 0px;
+  cursor: pointer;
+  margin-left: 10%;
+}
+
+.button2-2 {
+  transition-duration: 0.4s;
+}
+
+.button2-2:hover {
+  background-color: #ffffff; /* Green */
+  color: rgb(0, 0, 0);
+}
+
+.box3{
+  width: 100%;
+  height: auto;
+  /* border: 2px solid black; */
+  border: 2px solid transparent;
+  background-image: url("../image/img3.jpg");
+  height: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.8;  
+}
+
+.box4{
+  width: 100%;
+  height: auto;
+  /* border: 2px solid rgb(255, 255, 255); */
+  border: 0px solid transparent;
+  background-image: url("../image/img4.jpg");
+  height: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.8;  
+}
+
+/* section footer */
+#FOOTER{
+  background-color: #000000;
+  width: 100%;
+  height: auto;
+
+}
+
+.f-box{
+  /* border: 1px solid white; */
+  width: 10%;
+  height: auto;
+  /* padding-top: 2.5%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: white;
+}
+
+.f-logo{
+  width: 100%;
+  height: auto;  
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
+.f-text{
+  /* border: 1px solid black; */
+  border-bottom: 1px solid rgb(0, 0, 0);
+  color: white;
+  font-size: 3vw;
+  width: 80%;
+  height: auto;
+  margin-right: 5%;
+  margin-top: 1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Hind', sans-serif;
+}
+
+.f-text::selection{
+  color:rgb(0, 0, 0);
+  background-color: white;
+}
+
+.f-typewriter{
+  color: #ffffff;
+}
+
+.f-icon{
+  border: 1px solid black;
+  width: 100%;
+  height: auto;
+  text-align :center;
+  margin-top: 1%;
+  font-size: 2vw;
+  color: white;
+}
+
+.f-icon::selection{
+  color:rgb(0, 0, 0);
+  background-color: white;
+}
+
+.f-icons{
+  width: 3.5%;
+  height: auto;
+  margin: 1%;
+}
+
+.github-icon{
+  border: 1px solid white;
+  background-color: white;
+}
+
+.f-icons:hover{
+  transform: translateY(-10px);
+}
+
+.license{
+  /* border: 1px solid black; */
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  text-align :center;
+  margin-top: 1%;
+  font-size: 1.5vw;
+}
+
+.license::selection{
+  color:rgb(0, 0, 0);
+  background-color: white;
+}
+/* end section footer */
+

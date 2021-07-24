@@ -1,0 +1,16 @@
+<.... Welcome ....>
+
+This is one of my CV that l develope.
+
+The project called "fugeo"
+
+The languages l used to build it : html css javascript bootstrap , Librarys as aos:animate style & Responsive with all devices.
+
+copy rights "2021" all rights reseved by me {MOHAMED ALI}
+
+my Gmail:mohamed08.ali0@gmail.com
+
+live demo:
+
+
+
