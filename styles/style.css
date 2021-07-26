@@ -4,7 +4,7 @@ body, html{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /*scroll-behavior: smooth;*/
+  scroll-behavior: smooth;
 }
 
 *, *:before, *:after {
@@ -22,10 +22,10 @@ body, html{
 .box1{
   width: 100%;
   height: auto;
-  border: 2px solid black;
-  /* border: 2px solid transparent; */
+  /* border: 2px solid black; */
+  border: 2px solid transparent;
   background-image: url("../image/img1.jpg");
-  height: 100vh;
+  height: 100%;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,8 +37,8 @@ body, html{
   box-sizing: border-box;
   width:100%;
   /* min-width: 400px; */
-  border: 1px solid red;
-  /* border: 1px solid transparent; */
+  /* border: 1px solid red; */
+  border: 1px solid transparent;
   float: right;
   /* margin-top: 20%; */
   top: 30%;
@@ -85,10 +85,10 @@ body, html{
 .box2{
   width: 100%;
   height: auto;
-  border: 2px solid black;
-  /* border: 0px solid transparent; */
+  /* border: 2px solid rgb(255, 0, 0); */
+  border: 0px solid transparent;
   background-image: url("../image/img2.jpg");
-  height: 100vh;
+  height: 100%;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -149,10 +149,10 @@ body, html{
 .box3{
   width: 100%;
   height: auto;
-  border: 2px solid black;
-  /* border: 2px solid transparent; */
+  /* border: 2px solid black; */
+  border: 2px solid transparent;
   background-image: url("../image/img3.jpg");
-  height: 100vh;
+  height: 100%;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -163,10 +163,10 @@ body, html{
 .box4{
   width: 100%;
   height: auto;
-  border: 2px solid black;
-  /* border: 0px solid transparent; */
+  /* border: 2px solid rgb(255, 255, 255); */
+  border: 0px solid transparent;
   background-image: url("../image/img4.jpg");
-  height: 100vh;
+  height: 100%;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
