@@ -85,7 +85,7 @@ body, html{
 .box2{
   width: 100%;
   height: auto;
-  border: 2px solid rgb(255, 0, 0);
+  border: 2px solid black;
   /* border: 0px solid transparent; */
   background-image: url("../image/img2.jpg");
   height: 100vh;
@@ -163,7 +163,7 @@ body, html{
 .box4{
   width: 100%;
   height: auto;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid black;
   /* border: 0px solid transparent; */
   background-image: url("../image/img4.jpg");
   height: 100vh;
